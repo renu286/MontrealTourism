@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger-btn .fa-times").hide();
+			$(".hamburger-btn .fa-bars").click(function(){
+              $(this).hide();
+              $(".hamburger-btn .fa-times").show();
+              $(".mob ul").addClass("active");
+			});
+			$(".hamburger-btn .fa-times").click(function(){
+              $(this).hide();
+			$(".hamburger-btn .fa-bars").show();
+			 $(".mob ul").removeClass();
+		   });
+		});
+	</script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="header">
+
+	<div class="alert-bar">
+	<h2><b>COVID-19</b></h2>
+	<P>Get health updates and information about Covid-19 vaccines at <a href="https://covid19.quebec.ca">quebec.ca/covid19</a>.</P>
+  </div>
+
+  <div class="header-logo">
+    <a href="finalprojectP1N.html"><img src="logo.png"></a>
+    <div class="container">
+    	<div class="search_wrap">
+    			<div class="search_box">
+    				<input type="text" class="input" placeholder="Search">
+    				<div class="search_button">
+    					<i class="fas fa-search"></i>
+    				</div>
+    			</div>
+    	</div>
+    </div>
+  </div>
+
+  <div class="container1">
+    <nav class="desk">
+    	<ul>
+    			<li><a href="placesToVisit.html"><b>Places to Visit</b></a></li>
+    			<li><a href="restaurants.html"><b>Restaurants</b></a></li>
+    			<li><a href="whereToLive.html"><b>Where to Live?</b></a></li>
+    			<li><a href="contact.html" style="color: white"><b>Contact Us</b></a></li>
+    	</ul>
+    </nav>
+    <nav class="mob">
+    		<div class="hamburger-btn">
+    			<i class="fa fa-bars" aria-hidden="true"></i>
+    			<i class="fa fa-times" aria-hidden="true"></i>
+    		</div>
+    		<ul>
+    			<li><a href="placesToVisit.html"><b>Places to Visit</b></a></li>
+    			<li><a href="restaurants.html"><b>Restaurants</b></a></li>
+    			<li><a href="whereToLive.html"><b>Where to Live?</b></a></li>
+    			<li><a href="contact.html" style="color: white"><b>Contact Us</b></a></li>
+    		</ul>
+    </nav>	
+  </div>
+
+</div>
+
+<main>
+
+	<div class="contact2">
+      <div class="content">
+      	<h2>Contact Us</h2>
+      	<hr class="hline2">
+      	<div class="container6">
+      		<div class="imgC">
+      	     <img src="https://i.ytimg.com/vi/poe2cLKw9ko/maxresdefault.jpg">
+          </div>
+
+      		<div class="contactinfo">
+      			<div class="box">
+      				<div class="icon1"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+      				<div class="text">
+      					<h3>Address</h3>
+      					<p>3113 Rue McCaffry,<br> Montreal, Quebec,<br> H4N 1Y5</p>
+      				</div>
+      			</div>
+      			<div class="box">
+      				<div class="icon1"><i class="fa fa-phone" aria-hidden="true"></i></div>
+      				<div class="text">
+      					<h3>Phone</h3>
+      					<p>+1(514)523-9826</p>
+      				</div>
+      			</div>
+      			<div class="box">
+      				<div class="icon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+      				<div class="text">
+      					<h3>Email</h3>
+      					<p>rbgarg4984@gmail.com</p>
+      				</div>
+      			</div>
+      		</div>
+        </div>
+      </div>
+
+      <div class="contactForm">
+        	<form>
+	  		     <h2>Send Message</h2>
+	  		     <div class="inputBox">
+	  			      <input type="text" name="" required="required">
+	  			      <span>Full Name</span>
+	  		     </div>
+	  		     <div class="inputBox">
+	  			     <input type="text" name="" required="required">
+	  			     <span>Email</span>
+	  		     </div>
+	  		     <div class="inputBox">
+	  			     <textarea required="required"></textarea>
+	  			     <span>Type your Message...</span>
+	  		     </div>
+	  		     <div class="inputBox">
+	  			     <input type="submit" name="" value="Send">
+	  		     </div>
+	  	    </form>
+      </div>
+  </div>
+</main>
+
+<div class="footer">
+  <img src="logo.png" width="220px" height="90px">
+
+  <div class="container3">
+    <div class="wrapper">
+	  <div class="button1">
+		<div class="icon">
+			<i class="fab fa-facebook-f"></i>
+		</div>
+		<span>Facebook</span>
+	  </div>
+	</div>
+  </div>
+
+
+  <div class="container4">
+    <div class="wrapper">
+	  <div class="button2">
+		<div class="icon">
+			<i class="fab fa-twitter"></i>
+		</div>
+			<span>Twitter</span>
+	  </div>
+  	</div>  
+  </div>
+
+  <div class="container5">
+    <div class="wrapper">
+	  <div class="button3">
+		<div class="icon">
+			<i class="fab fa-instagram"></i>
+		</div>
+		<span>Instagram</span>
+	  </div>
+    </div>
+  </div>
+
+<hr class="hrline">
+<p>@Touriam of Montreal 2021-2022|Privacy|Accessibility at the city of Montreal</p>	
+</div>
+</body>
+</html>
